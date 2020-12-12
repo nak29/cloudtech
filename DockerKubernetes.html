@@ -13,7 +13,7 @@
 <body>
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">How the Internet Works</a>
+        <a class="navbar-brand" href="index.html">Cloud Technology</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,29 +38,37 @@
     </nav>
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">How the Internet Works</li>
-        <li class="breadcrumb-item active" aria-current="page">DNS</li>
+        <li class="breadcrumb-item active" aria-current="page">Cloud Technology</li>
+        <li class="breadcrumb-item active" aria-current="page">Docker vs Kubernetes</li>
     </ol>
     <div class="row">
         <div class="col-8">
             <h1 class="text-info">DNS</h1>
             <p>
-                To provide a link between domain names and IP addresses, a system called the <b>Domain Name System (DNS)</b>
-                handles all requests through allocated servers. For example, a <b>DNS server</b> would be able to link
-                www.Google.com to a proper IP address, allowing a user to connect to the website. There is not only
-                one DNS server, and because of this, not all DNS servers have all of the internet’s many IP addresses.
-                To solve this problem, multiple DNS servers will “talk” to each other, and find the IP address related
-                to a given domain name in lightning fast times.
+                Docker is a tool designed to run applications easier through containers. These containers are closely
+                related to virtual machines, except containers don’t need entire virtual operating systems. Because of
+                this, Docker is able to create, deploy and run applications via containers with ease, allowing easy
+                troubleshooting to both applications and container builds. Additionally, Docker is open source, meaning
+                anyone can make plug-ins to customize their own Docker version.
             </p>
             <p>
-                DNS was originally created to be an open and public communication protocol for government and
-                educational institutions. Because of this, DNS servers are highly susceptible to cyber attacks.
+                Kubernetes is another open source container organizing platform originally created by Google.
+                Kubernetes can automate many manual processes involving deploying, managing, and scaling
+                containerized applications. The Kubernetes environment is one of its primary advantages,
+                as you can run containers or schedule them to run at a later time. Automation is the key with
+                Kubernetes, as this application proves anything can be automated.
             </p>
             <p>
-                One of these attacks is called DNS Spoofing. <b>DNS Spoofing</b> is a method of interfering with a DNS server
-                where a hacker attempts to change the IP address of a specific or multiple domain names. This allows a
-                hacker to cause the server to send people to a compromised website, most likely for a malicious intent,
-                whether that be to install a virus or to scam visitors.
+                Docker and Kubernetes have their own pros and cons, yet neither are necessarily the Best. One
+                interesting note to make about both of these programs is that they don’t need to work with each
+                other, but they both can greatly benefit from it. Docker is great for running containerized
+                applications on a single machine. Kubernetes is able to connect with many other systems on other
+                machines (so long as they all have Docker installed) and run containers on them at the same time.
+            </p>
+            <p>
+                These two programs can be seen as competitors, but they work with each other even greater. They work
+                so well together that Docker offers its own container orchestration engine within their own software,
+                yet they still recommend using Kubernetes for this instead.
             </p>
             <br>
             <img src="https://www.seobility.net/en/wiki/images/d/d0/DNS-Server.png" alt="soebility.net" width="630" height="400">
@@ -68,7 +76,7 @@
         <div class="col-4">
             <div class="card" style="width: 18rem;">
                 <div class="card-header">
-                    How the Internet Works
+                    Cloud Technology
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><a href="Virtualization.html">Virtualization vs Containerization</a></li>

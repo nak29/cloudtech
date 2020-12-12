@@ -13,7 +13,7 @@
 <body>
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">How the Internet Works</a>
+        <a class="navbar-brand" href="index.html">Cloud Technology</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,41 +38,40 @@
     </nav>
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">How the Internet Works</li>
-        <li class="breadcrumb-item active" aria-current="page">Domain names and ICANN</li>
+        <li class="breadcrumb-item active" aria-current="page">Cloud Technology</li>
+        <li class="breadcrumb-item active" aria-current="page">Virtualization vs Containerization</li>
     </ol>
     <div class="row">
         <div class="col-8">
             <h1 class="text-info">Domain names and ICANN</h1>
             <p>
-                A <b>Domain Name</b> is an address that a user can type into their web browser to get to the desired website.
-                Much like how a person has their own phone number which you can call to reach them, a website has its
-                own web address, commonly known as its domain name. In addition, a website can have infinitely many
-                domain names, similarly to how a single person can have many different phone numbers. You only need to
-                know one of these domain names to reach the website you want to visit.
+                Virtualization is the process of running a virtual instance of a computer system in a layer abstracted
+                from the actual hardware. In simpler words, this can allow multiple operating systems to run at the
+                same time on one machine. This helps greatly when trying to identify if a bug lies in a program itself
+                or the program’s relationship with the operating system. Multiple virtual machines on one system can
+                lead to inefficiencies and long boot-up times, so virtualization is not meant for everyone.
             </p>
             <p>
-                The domain name for this webpage is web.njit.edu. The following text (/~nak29/internet/domain.html) is
-                another section of the web address that directs you to a specific page within the site. The important
-                part of the domain name is everything after the “www.” and before the first forward slash.
+                Containerization is a process that was developed to help extend the usefulness of virtualization.
+                Containerization utilizes the absence of an operating system to help applications run properly.
+                Because containerization does not use virtual machines, it does not run into the problems
+                virtualization runs into, such as the need to share relevant libraries and resources.
+                Instead of virtual machines, containerization runs applications on containers, also known
+                as “bare-metal systems”. Containers do not have the long boot-up times like virtual machines
+                do. They are known as lightweight alternatives to full virtual machines.
             </p>
             <p>
-                The commonly used “.com” and “.org” suffixes help identify the type of website the domain name
-                represents. The “.com” suffix is most commonly used because it’s typically used for commercial websites.
-                Following the same pattern, the “.org” suffix is used to represent a non-profit organization’s website,
-                and the “.gov” suffix represents government websites.
+                These processes have their pros and cons, as many people do not need a more barebones version of a
+                virtual machine. Containerization is more commonly used with people who know how to set up containers,
+                but this is not necessary for everyone.
             </p>
-            <p>
-                <b>ICANN</b>, the Internet Corporation for Assigned Names and Numbers, is a non-profit organization that deals
-                with ensuring all users of the Internet can find all valid addresses. ICANN works to keep the
-                operational stability on the internet in balance.
-            </p>
+
             <img src="https://www.hostpapa.ca/blog/blog/wp-content/uploads/2019/04/URL-anatomy.jpg" alt="hostpapa.ca" width="659" height="291">
         </div>
         <div class="col-4">
             <div class="card" style="width: 18rem;">
                 <div class="card-header">
-                    How the Internet Works
+                    Cloud Technology
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><a href="Virtualization.html">Virtualization vs Containerization</a></li>
